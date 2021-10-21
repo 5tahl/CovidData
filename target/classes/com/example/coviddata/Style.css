@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.root {
+    -fx-font-family: 'Ubuntu', sans-serif;
+    -fx-background-color: #223843;
+}
+
+.hbox {
+    -fx-background-color: d77a61;
+    -fx-background-radius: 25px;
+}
+
+.button {
+    -fx-font-size: 20px;
+    -fx-text-fill: eff1f3;
+    -fx-background-color: d77a61;
+    -fx-background-radius: 25px;
+    -fx-background-image: url("search-icon.png");
+    -fx-background-size: 30px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.search-text-field {
+    -fx-font-size: 20px;
+    -fx-background-color: eff1f3;
+    -fx-background-radius: 25px;
+}
+
+.flowpane {
+    -fx-background-color: dbd3d8;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px;
+}
+
+.top-left {
+    -fx-background-radius: 25px 5 5 5;
+}
+
+.top-right {
+    -fx-background-radius: 5 25px 5 5;
+}
+
+.bottom-left {
+    -fx-background-radius: 5 5 5 25px;
+}
+
+.bottom-right {
+    -fx-background-radius: 5 5 25px 5;
+}
+
+.data-text-field-title {
+    -fx-background-color: d8b4a0;
+    -fx-font-size: 14px;
+    -fx-padding: 0 0 0 20px;
+}
+
+.data-text-field {
+    -fx-font-size: 25px;
+    -fx-background-color: eff1f3;
+    -fx-alignment: center;
+
+}
+
